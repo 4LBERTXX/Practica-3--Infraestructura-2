@@ -482,7 +482,6 @@ running-configs/
 └── FortiGate.conf
 
 scripts/
-├── README.md
 ├── 01-vpn-cliente.sh
 ├── 02-jump-a-web.ps1
 ├── 03-usuarios-vlan10.sh
