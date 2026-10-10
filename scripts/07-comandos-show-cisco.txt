@@ -1,0 +1,30 @@
+=====================================================================
+Comandos "show" usados en los equipos Cisco
+Dónde se ejecutan: consola de cada equipo en GNS3 (clic derecho > Console)
+=====================================================================
+
+--- isp  (captura 02-isp.png) ---
+enable
+show ip interface brief
+show ip route
+show ip nat translations
+
+--- router-cisco  (captura 03-router-cisco.png) ---
+enable
+show ip interface brief
+show ip route
+
+--- switch-2241-1  (capturas 04-show-vlan-brief.png y 05-trunk-usuario.png) ---
+enable
+show vlan brief
+show interfaces trunk
+
+--- switch-2241-2  (captura 06-switch-usuario-vpn.png) ---
+enable
+show vlan brief
+show ip interface brief
+
+--- Para guardar la configuración completa (carpeta running-configs) ---
+enable
+terminal length 0
+show running-config
